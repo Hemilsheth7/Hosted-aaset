@@ -1,0 +1,508 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+body{
+    background-color: white;
+}
+.main{
+    margin: auto;
+    /* background-color: red; */
+    height: 65  0px;
+    padding: 50px;
+    display: flex;
+}
+
+#gallery{
+    /* background-color: green; */
+    height: 540px;
+    width: 220px;
+    /* padding: 5px; */
+    padding-left: 5px;
+    position: relative;
+   
+}
+.img
+{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    /* padding: 10px; */
+    /* margin:12px; */
+    border-radius: 5px;
+    
+    margin-bottom: 10px;
+}
+.img:hover{
+    border: solid 4px rgb(34, 176, 117);
+    transition: all ease 0.1s;
+
+}
+#center 
+{
+     margin: 0;
+     margin-left: 20px;
+     height: 480px;
+     width: 730px;
+     overflow-y:scroll;  
+     overflow-x:hidden;  
+        
+}
+.cen{
+    margin: 0;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 730px;
+    border-radius: 20px;
+
+} 
+#center::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+#center::-webkit-scrollbar-track {
+    background: #ffffff; 
+    border-radius: 10px;
+  }
+   
+#center::-webkit-scrollbar-thumb {
+    background: rgb(229, 227, 227); 
+    border-radius: 10px;
+  }
+  
+#center::-webkit-scrollbar-thumb:hover {
+    background: rgb(229, 227, 227); 
+  }
+.count1{
+    position: absolute;
+    top: 6%;
+    height: 480px;
+    width: 730px;
+    background-color:rgba(0, 0, 0, 0) ;
+}
+.count1 .num{
+    position: absolute;
+    width: 75px;
+    height: 28px;
+    background-color: rgba(3, 3, 3, 0.733);
+    text-align: center;
+    bottom:5%;
+    right: 2%;
+    border-radius: 20px;
+    padding: 5px;
+    color: #fff;
+
+}
+.count2{
+    position: absolute;
+    top: 6%;
+    height: 480px;
+    width: 730px;
+    background-color:rgba(0, 0, 0, 0) ;
+}
+.count2 .num{
+    position: absolute;
+    width: 75px;
+    height: 28px;
+    background-color: rgba(3, 3, 3, 0.733);
+    text-align: center;
+    bottom:5%;
+    right: 2%;
+    border-radius: 20px;
+    padding: 5px;
+    color: #fff;
+
+}
+.count3{
+    position: absolute;
+    top: 6%;
+    height: 480px;
+    width: 730px;
+    background-color:rgba(0, 0, 0, 0) ;
+}
+.count3 .num{
+    position: absolute;
+    width: 75px;
+    height: 28px;
+    background-color: rgba(3, 3, 3, 0.733);
+    text-align: center;
+    bottom:5%;
+    right: 2%;
+    border-radius: 20px;
+    padding: 5px;
+    color: #fff;
+
+}
+.count4{
+    position: absolute;
+    top: 6%;
+    height: 480px;
+    width: 730px;
+    background-color:rgba(0, 0, 0, 0) ;
+}
+.count4 .num{
+    position: absolute;
+    width: 75px;
+    height: 28px;
+    background-color: rgba(3, 3, 3, 0.733);
+    text-align: center;
+    bottom:5%;
+    right: 2%;
+    border-radius: 20px;
+    padding: 5px;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+.text{
+    position:absolute;
+    top: 60%;
+    left:3%;
+    /* background: rgba(255, 255, 255, 0) ; */
+    color: #fff;
+    padding-top: 50px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.562);
+    
+}
+.text .gal{
+    width: 20px;
+    height: 20px;
+    color: rgba(255, 255, 255, 0);
+    background: rgba(248, 247, 247, 0.568);
+}
+.imgplay{
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    top:40%;
+    left:40%;
+    border-radius: 50%;
+
+}
+
+.agent{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    align: center;
+    margin-top: 50px;
+
+
+}
+#agent-details 
+{
+    position: absolute;
+    right: 2%;
+     height: 480px;
+     width: 350px;
+    
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px rgb(235, 231, 231);
+   
+  
+}
+.agentname{
+    color: rgb(201, 196, 196);
+}
+.name{
+    margin-top: 15px;
+    margin-left: 100px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background: rgba(248, 247, 247, 0);
+
+}
+.star{
+    margin-top: 0px;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.rating{
+    text-align: center;
+    width: 100%;
+}
+.rectangle{
+   
+   
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 55px;
+    color: black;
+    background-color:  rgb(147, 223, 194);
+    border-radius: 5%;
+}
+.mob{
+    margin: 10px;
+    margin-left: 30px;
+    position:absolute;
+    padding: 10px;
+    
+
+}
+.rectangle2{
+
+    
+    margin-top: 30px;
+    width: 350px;
+    height: 159px;
+    color: black;
+    background-color: rgb(235, 231, 231);
+    padding: 20px;
+   
+}
+.contact{
+    display: flex;
+    margin: 5px;
+    margin-left: 20px;
+    background-color: rgb(16, 163, 29);
+    padding: 10px;
+    border-radius: 5px;
+}
+.mail
+{
+    
+    margin-left: 50px;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.other{
+   
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 200px;
+    height: 20px;
+    color: rgb(180, 179, 179);
+    
+}
+.find
+{
+    
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.properties{
+    color: rgb(180, 179, 179);
+}
+.navigation{
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin: 50px;
+    margin-left: 130px;
+    /* text-align: center; */
+    /* align-items: center; */
+    position: relative;
+    width: 70px;
+    height: 350px;
+    background: #fff;
+    border-radius: 35px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+/* .main{
+    background-color: red;
+} */
+.navigation ul{
+position: absolute;
+display: flex;
+top: 0;
+left: 0;
+width: 100%;
+flex-direction: column;
+}
+
+
+.navigation ul li
+{
+justify-content: center;
+align-items: center;
+position: relative;
+list-style: none;
+width: 70px;
+height: 70px;
+z-index: 1;
+}
+.navigation ul li a
+{
+position: relative;
+display: flex;
+width: 100%;
+text-align: center;
+color: #333;
+font-weight: 500;
+margin: 20px;
+}
+
+
+
+
+
+
+
+.navigation ul li a .icon
+{
+position: relative;
+display: block;
+line-height: 75px;
+text-align: center;
+
+}
+.main2{
+display: flex;
+height: 500px;
+width: 100%;
+/* background-color: green; */
+}
+
+.div2{
+    position: absolute;
+/* margin: 150px; */
+left: 20%;
+height: 500px;
+width: 730px;
+/* background-color: red; */
+
+}
+.number{
+    height: 100px;
+}
+span{
+    color: green;
+}
+.parent1{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.bedcount{
+    position: absolute;
+    top: 15%;
+    left:7%;
+}
+.bed{
+    position: absolute;
+    top: 15%;
+    left:10%;
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+.bathroomcount{
+    position: absolute;
+    top: 15%;
+    left:28%;
+}
+.bath{
+    position: absolute;
+    top: 15%;
+    left:31%;
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+.bathroomtext{
+    margin-left: 80px;
+
+}
+
+.areatext{
+    margin-left:80px ;
+}
+.areacount{
+    position: absolute;
+    top: 15%;
+    left:50%;
+}
+.parent2{
+    position: relative;
+}
+.buildtext{
+    position: absolute;
+    margin-left: 60px;
+    top:70px;
+
+}
+.buildcount{
+    position: absolute;
+    
+    top: 92px;px;
+    left:9%;
+
+}
+.parkingtext{
+    position: absolute;
+    left: 30%;
+    top:70px;
+
+}
+.parkingcount{
+    position: absolute;
+    
+    top: 92px;
+    left:30%;
+
+}
+.parent3{
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+/* .navigation ul li a .title
+{
+position:absolute;
+background: #fff;
+}
+.navigation ul li a .icon i {
+position: relative;
+display: block;
+font-size:24px;
+position: absolute;
+top: 50%;
+left: 110px;
+background:#fff;
+transform: translateY( -50%);
+padding: 5px 10px;
+border-radius: 6px;
+transition: 0.5s;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+opacity: 0;
+visibility: hidden;
+}
+.navigation ul li a .title
+{
+position: absolute;
+background:
+#fff;
+transform: translateY( -50%);
+padding: 5px 10px;
+border-radius: 6px;
+transition: 0.5s;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+opacity: 0;
+visibility: hidden;
+top: 50%;
+left: 110px;
+}
+ */
